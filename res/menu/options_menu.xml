@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_clear"
+        android:enabled="true"
+        android:title="@string/menuClear"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/item_setting"
+        android:enabled="true"
+        android:visible="true" android:title="@string/menuSettings">
+    </item>
+    <item
+        android:id="@+id/item_about"
+        android:enabled="true"
+        android:title="@string/menuAbout"
+        android:visible="true">
+    </item>
+
+</menu>

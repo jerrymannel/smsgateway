@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_message"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp" >
+
+    <TextView
+        android:id="@+id/textView_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#777" />
+
+    <TextView
+        android:id="@+id/textView_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#555"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView_timeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFF"
+        android:textSize="12sp"
+        android:textIsSelectable="false" />
+
+</LinearLayout>

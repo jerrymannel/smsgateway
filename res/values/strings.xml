@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My SMS Gateway</string>
+    <string name="action_settings">Settings</string>
+    <string name="serverOn">Server Started.</string>
+    <string name="serverOff">Server Stopped.</string>
+    <string name="initialComment">Toggle switch to start the server.</string>
+    <string name="connectComment">Listening at: </string>
+    <string name="stopComment">Server has stopped listening.</string>
+    
+    <string name="portLabel">Enter new listening port number: </string>
+    <string name="portAccept">Accept New Port Number</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="menuClear">Clear</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuAbout">About</string>
+
+    <string name="aboutAuthor">Designed and Developed by Jerry M.</string>
+    <string name="aboutIntro">asdas</string>
+    
+    <string name="dont_allow">Don\'t allow the user access</string>
+    <string name="allow">Allow the user access</string>
+    <string name="application_error">Application error: %1$s</string>
+</resources>
