@@ -249,12 +249,18 @@ public class MySMSGatewayMainActivity extends Activity {
 							new InputStreamReader(socket.getInputStream()));
 					DataOutputStream out = new DataOutputStream(
 							socket.getOutputStream());
+					// get the first line of the HTTP GET request
+					// sample : GET /?phone=+911234567890&message=HelloWorld HTTP/1.1
 					String data = in.readLine();
+					// get the substring after GET /?
 					data = data.substring(6);
+					
+					// if the URL doesn't contain the sting phone, do nothing.
 					if (!data.contains("phone")) {
 						Log.i(TAG, "Invalid URL");
 						showAlert("Invalid URL");
 					} else {
+						// get the data before  HTTP/1.1
 						data = data.substring(0, data.length() - 9);
 						String[] myparams = data.split("&");
 						if (data.contains("=")) {
